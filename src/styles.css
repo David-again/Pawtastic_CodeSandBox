@@ -1,0 +1,8 @@
+@import "./stylesheets/_page-container.css";
+@import "./stylesheets/_nav.css";
+@import "./stylesheets/_pet-form.css";
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
