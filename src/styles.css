@@ -1,8 +1,17 @@
 @import "./stylesheets/_page-container.css";
 @import "./stylesheets/_nav.css";
 @import "./stylesheets/_pet-form.css";
+@import "./stylesheets/_global-menu.css";
+@import "./stylesheets/_common-items.css";
+
+html,
+body {
+  /* get rid of top and left 'white strip' */
+  margin: 0;
+  padding: 0;
+}
 
 .App {
-  font-family: sans-serif;
+  font-family: Helvetica sans-serif;
   /* text-align: center; */
 }

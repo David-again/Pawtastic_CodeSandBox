@@ -14,7 +14,7 @@ class NavMenus extends React.Component {
       </div>
     );
   }
-  //9;
 }
+// 🔘
 
 export default NavMenus;

@@ -1,34 +1,44 @@
 .nav {
+  position: relative;
+  /* allows child elements to be relatively (or absolutely?) positioned */
   background-color: #545871;
   height: 100%;
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+
+  /* justify-content: center; */
+  /* justify-content: space-between; */
   /* min-width: 300px; */
 }
 
 .nav__menu-container {
-  background-color: red;
-  text-align: center;
+  /* background-color: red; */
+  position: absolute;
+  top: 160px;
+  left: 25%;
   width: 50%;
-  min-height: 300px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  min-height: 200px;
+  /* display: flex;
+  flex-direction: column; */
+
+  /* justify-content: space-between; */
   /* vertical-align: center; */
 }
 
 .nav__main-menu {
   text-align: left;
+  font-size: 1.3rem;
 }
 
 .nav__main-menu--active {
   color: #fff;
+  font-weight: 500;
 }
 
 .nav__main-menu--inactive {
-  color: #dadbe7;
+  color: #9497a7;
+  /* color: #dadbe7; */
+  font-weight: 300;
 }

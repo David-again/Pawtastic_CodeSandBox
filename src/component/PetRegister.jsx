@@ -9,21 +9,23 @@ class PetRegister extends React.Component {
     return (
       <div className="page-container">
         <div className="nav">
+          <div className="common-items__logo">
+            <img
+              src={require("../images/logo-pawtastic.jpg")}
+              alt="Pawtastic Logo"
+            />
+          </div>
+          {/* <p className="common-items__logo"> Na wah oh!</p> */}
           <div className="nav__menu-container">
-            <div>
-              <img src="../images/logo-pawtastic.jpg" alt="Pawtastic Logo" />
-            </div>
             <NavMenus />
-            <div>
-              <p>
-                <a href=""> Save and exit </a>
-              </p>
-            </div>
+          </div>
+          <div className="global-menu">
+            <p>Save and exit</p>
           </div>
         </div>
-        <div className="pet-form"> Something wonderful! </div>
-        {/* <div className="pet-form">Finally </div>
-        <div className="nav">What is this?</div> */}
+        <div className="pet-form">
+          Something wonderful! <br />
+        </div>
       </div>
     );
   }
