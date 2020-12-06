@@ -16,7 +16,7 @@
 .nav__menu-container {
   /* background-color: red; */
   position: absolute;
-  top: 160px;
+  top: 140px;
   left: 25%;
   width: 50%;
   min-height: 200px;
@@ -41,4 +41,22 @@
   color: #9497a7;
   /* color: #dadbe7; */
   font-weight: 300;
+}
+
+.nav__bgnd-img--bottom {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav__bgnd-img--central {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav__bgnd-img--right {
+  margin-right: 0;
+  margin-left: auto;
 }

@@ -6,7 +6,6 @@
 
 html,
 body {
-  /* get rid of top and left 'white strip' */
   margin: 0;
   padding: 0;
 }

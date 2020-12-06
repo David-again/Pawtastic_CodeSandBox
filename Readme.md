@@ -14,8 +14,8 @@ This will later be metamorphosized to cater for a Mobile-first philosophy.
 
 Come back soon! 😎
 
-### Status update: 05Dec2020 @1529EST
-The 'Nav' section of the 'Pet basics' page is 75% completed...
+### Status update: 05Dec2020 @2202EST
+The 'Nav' section of the 'Pet basics' page is 80% completed...
 Outstanding:
-    Dog in background (bottom section)
     Vertical progress bar to the left of page navigators.
+    Will be done alongside the JavaScript section.

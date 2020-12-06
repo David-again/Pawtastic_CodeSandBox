@@ -15,9 +15,15 @@ class PetRegister extends React.Component {
               alt="Pawtastic Logo"
             />
           </div>
-          {/* <p className="common-items__logo"> Na wah oh!</p> */}
           <div className="nav__menu-container">
             <NavMenus />
+          </div>
+          <div className="nav__bgnd-img--bottom">
+            <img
+              className="nav__bgnd-img--right"
+              src={require("../images/dog_nav_grey_bk.jpg")}
+              alt="Dog Looking Up"
+            />
           </div>
           <div className="global-menu">
             <p>Save and exit</p>
