@@ -2,7 +2,7 @@
   display: flex;
   /* flex allows the nav and form areas to lay side-by-side, 4:6 ratio */
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   min-height: 700px;
   min-width: 680px;
   /* margin: 0; */

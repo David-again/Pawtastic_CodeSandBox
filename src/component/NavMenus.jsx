@@ -6,7 +6,7 @@ class NavMenus extends React.Component {
   // }
   render() {
     return (
-      <div>
+      <div className="nav__menu-container">
         <p className="nav__main-menu nav__main-menu--inactive">Human profile</p>
         <p className="nav__main-menu nav__main-menu--active">Pet basics</p>
         <p className="nav__main-menu nav__main-menu--inactive">Pet details</p>
@@ -17,4 +17,18 @@ class NavMenus extends React.Component {
 }
 // 🔘
 
+class NavGlobalMenu extends React.Component {
+  // constructor(props) {
+  //   super(props);
+  // }
+  render() {
+    return (
+      <div className="global-menu__save-exit">
+        <p>Save and exit</p>
+      </div>
+    );
+  }
+}
+
 export default NavMenus;
+export { NavGlobalMenu };
