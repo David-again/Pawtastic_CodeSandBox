@@ -1,6 +1,6 @@
 .page-container {
   display: flex;
-  /* flex allows the nav and form areas to lay side-by-side, 4:6 ratio */
+  /* flex allows the "nav" and "pet-form" areas to lay side-by-side, 4:6 ratio */
   width: 100vw;
   height: 100vh;
   min-height: 700px;

@@ -1,0 +1,19 @@
+##  Status updates
+### 05Dec2020 @1529EST:
+The 'Nav' section of the 'Pet basics' page is 75% completed...
+Outstanding:
+    Dog in background (bottom section)
+    Vertical progress bar to the left of page navigators.
+
+### 05Dec2020 @2202EST:
+    Dog in background completed
+    Vertical progress bar adjourned until the JavaScript section.
+
+### 05Dec2020 @2348EST:
+    Refactored the 'Nav' section
+    Vertical progress bar still outstanding.
+    Also need to look into the fonts
+    
+### 08Dec2020 @0130EST: 
+    Skeleton of the 'pet form' section of the 'Pet Details' page completed.
+    Currently using CSS to position the elements on the page.

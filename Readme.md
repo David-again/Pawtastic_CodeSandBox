@@ -19,3 +19,7 @@ The 'Nav' section of the 'Pet basics' page is 80% completed...
 Outstanding:
     Vertical progress bar to the left of page navigators.
     Will be done alongside the JavaScript section.
+
+### 08Dec2020 @0130EST: 
+Skeleton of the 'pet form' section of the 'Pet Details' page completed.
+    Currently using CSS to position the elements on the page.

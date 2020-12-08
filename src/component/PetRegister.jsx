@@ -1,6 +1,7 @@
 import React from "react";
-import NavLogo, { NavBgndDog } from "./NavImages";
-import NavMenus, { NavGlobalMenu } from "./NavMenus";
+import NavLogo, { NavBgndDog } from "./_NavImages";
+import NavMenus, { NavGlobalSaveExit } from "./_NavMenus";
+import PetBasics from "./PetBasics";
 
 class PetRegister extends React.Component {
   // constructor(props) {
@@ -13,10 +14,11 @@ class PetRegister extends React.Component {
           <NavLogo />
           <NavMenus />
           <NavBgndDog />
-          <NavGlobalMenu />
+          <NavGlobalSaveExit />
         </div>
         <div className="pet-form">
-          <p> Yay, we love dogs! Give us the basics about your pup </p>
+          <p> Yay, we love dogs! Give us the basics about your pup. </p>
+          <PetBasics />
         </div>
       </div>
     );
